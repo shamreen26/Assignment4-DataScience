@@ -1,0 +1,66 @@
+# Questions 3:
+
+How to convert the index of a series into a column of a dataframe ?
+
+import pandas as pd
+
+my_series = pd.Series([1, 2, 3, 4, 5, 16, 7, 8, 9, 3, 4, 25, 6, 7, 8, 9, 2, 3, 14, 5, 6, 7, 38, 9])
+print("Series is :", my_series)
+
+print("Index of a series into a column of a data frame :", my_series.to_frame().reset_index())
+
+
+Output :
+
+Series is :
+0      1
+1      2
+2      3
+3      4
+4      5
+5     16
+6      7
+7      8
+8      9
+9      3
+10     4
+11    25
+12     6
+13     7
+14     8
+15     9
+16     2
+17     3
+18    14
+19     5
+20     6
+21     7
+22    38
+23     9
+dtype: int64
+
+Index of a series into a column of a data frame : index  0
+0       0   1
+1       1   2
+2       2   3
+3       3   4
+4       4   5
+5       5  16
+6       6   7
+7       7   8
+8       8   9
+9       9   3
+10     10   4
+11     11  25
+12     12   6
+13     13   7
+14     14   8
+15     15   9
+16     16   2
+17     17   3
+18     18  14
+19     19   5
+20     20   6
+21     21   7
+22     22  38
+23     23   9

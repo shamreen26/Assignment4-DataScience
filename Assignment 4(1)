@@ -1,0 +1,12 @@
+# Questions 1:
+
+How to import pandas and check the version?
+
+import pandas as pd
+#Print panda and check it's version...
+print(pd.__version__)
+
+Output :
+
+1.1.4
+ 

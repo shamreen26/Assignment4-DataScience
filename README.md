@@ -12,4 +12,4 @@ materials folder)
 
 5.Which country origin cars are a part of this dataset?
 
-6.
+6.Extract the part of the dataframe which contains cars belonging to 'usa'?

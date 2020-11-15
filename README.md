@@ -10,4 +10,6 @@
 Note: mpg dataset will be read from seaborn module in the manner sir has already shown(provided in the
 materials folder)
 
-5.
+5.Which country origin cars are a part of this dataset?
+
+6.

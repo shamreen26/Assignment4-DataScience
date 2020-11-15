@@ -4,4 +4,5 @@
 
 2.How to create a series from a numpy array?
 
-3.
+3.How to convert the index of a series into a column of a dataframe?
+
